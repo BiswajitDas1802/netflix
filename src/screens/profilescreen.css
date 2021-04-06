@@ -22,6 +22,7 @@
 
 .profilescreen_detail{
     color: white;
+
     margin-left: 25px;
     flex: 1;
 }
@@ -38,7 +39,7 @@
       padding: 15px;
       font-size: 15px;
       padding-left: 20px;
-   
+    margin-top: -1px;
 }
 
 .profilescreen_signout{
@@ -60,4 +61,12 @@
 .profilescreen_plans{
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
+    
+}
+
+.profilescreen_plans>li{
+    list-style: none;
+    text-align: left;
+    position: relative;
+    left: 0;
 }

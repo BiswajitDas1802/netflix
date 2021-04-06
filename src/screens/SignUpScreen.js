@@ -45,6 +45,11 @@ function SignUpScreen() {
                        </span>
                        <span className="signupscreen_link" onClick={register}>Sign Up now.</span>
                     </h4>
+                    <h4><span className="signupscreen_grey">
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                    </span> 
+                    <span className="signupscreen_link">Learn more.</span>
+                    </h4>
            </form>
         </div>
     )
