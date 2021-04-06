@@ -16,21 +16,23 @@ function Login() {
                   <button className="loginscreen_button" onClick={()=>setSignIn(true)}>
                       Sign In
                   </button>
-       <div className="logingrad"></div> 
+       <div className="logingrad" /> 
                   </div>
         
              <div className="loginscreen_body">
                      {signIn ?(
-                         <SignUpScreen/>
+                         <SignUpScreen />
                      ):( <>
-                     <h1>Unlimited films, TV programmes and more.</h1>
+                     <h1>Unlimited movies, TV shows and more.</h1>
                      <h2>Watch anywhere. Cancel anytime.</h2>
+                     <div className="formdiv">
                      <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                      <div className="loginScreen_input">
-                         <form>
+                         <form className="loginScreen_form">
                              <input type="email" placeholder="Email address"/>
-                            <button className="loginScreen_button" onClick={()=>setSignIn(true)}>GET STARTED</button>
+                            <button className="loginScreen_button" onClick={()=>setSignIn(true)}>GET STARTED ></button>
                          </form>
+                         </div>
                      </div>
                      </> ) }
              </div>
